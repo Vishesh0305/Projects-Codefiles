@@ -1,2 +1,2 @@
 # Projects
-The projects i worked on while learning to get much more of a hands on feel
+The projects and codefiles i worked on while learning webdev and machine learning to get much more of a hands on feel
