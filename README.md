@@ -1,2 +1,9 @@
-# Projects
-The projects and codefiles i worked on while learning webdev and machine learning to get much more of a hands on feel
+# Projects & Codefiles
+
+This repository contains projects and experiments I built while learning:
+
+• Web Development 
+
+• Machine Learning concepts
+
+The goal of this repository is to document my hands-on learning journey and track progress through practical implementations.
