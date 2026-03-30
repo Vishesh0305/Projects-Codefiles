@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <p>
+    <button onclick="updateCalc('1')">1</button>
+    <button onclick="updateCalc('2')">2</button>
+    <button onclick="updateCalc('3')">3</button>
+  </p>
+
+  <p>
+    <button onclick="updateCalc('4')">4</button>
+    <button onclick="updateCalc('5')">5</button>
+    <button onclick="updateCalc('6')">6</button>
+  </p>
+
+  <p>
+    <button onclick="updateCalc('7')">7</button>
+    <button onclick="updateCalc('8')">8</button>
+    <button onclick="updateCalc('9')">9</button>
+  </p>
+
+  <p>
+    <button onclick="updateCalc('+')">+</button>
+    <button onclick="updateCalc('-')">-</button>
+    <button onclick="updateCalc('/')">/</button>
+    <button onclick="updateCalc('*')">*</button>
+  </p>
+  <p>
+    <button onclick="
+      updateCalc ('.');
+      "> .</button>
+
+    <button onclick= "
+    calculation= eval(calculation) 
+    console.log(calculation)
+    "> = </button>
+
+    <button onclick="
+    calculation= ''; console.log (calculation,' the Calculator is cleared')
+    ">C</button>
+
+  </p>
+</body>
+<script>
+  let calculation = "";
+  function updateCalc(value){
+    calculation +=value
+    console.log(calculation)
+  }
+</script>
+</html>
